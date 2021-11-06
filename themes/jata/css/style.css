@@ -22,11 +22,12 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background-color:white;
+    background-color:rgb(49, 49, 49);
 }
 
 .main {
     flex: 1 0 auto;
+    padding: 1% 5%;
 }
 
 .header, .footer {
@@ -38,6 +39,7 @@ body {
 .header, .site-header {
     display: flex;
     justify-content: space-between;
+    background-color: yellow;
 }
 
 /* Title */
@@ -45,6 +47,7 @@ body {
 .title, .logo {
     padding: 3em 3em 3em 0;
 }
+
 
 @media (max-width: 767px) {
     .title, .logo {
@@ -72,6 +75,8 @@ body {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #222;
+    background-color: yellow;
+    color: #222;
 }
 
 .footer a {
@@ -87,7 +92,7 @@ body {
 body {
     font-family: sans-serif;
     line-height: 1.5rem;
-    color: #444;
+    color: rgb(219, 219, 219);
 }
 
 p, td, th, li, dd {
@@ -103,6 +108,8 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     max-width: 100%;
+    max-height: 300px;
+    border-radius: 10px;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */

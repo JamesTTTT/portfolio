@@ -14,6 +14,4 @@ På fritiden gillar jag att läsa och gå på långa promenader
 
 I framtiden hoppas jag att kunna själv jobba inom webbdesign
 
-<img src="../assets/img/me.jpg">
-![image](../assets/img/me.jpg)
-
+![me](%assets_url%/img/me.jpg)

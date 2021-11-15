@@ -1,8 +1,11 @@
 ---
-Logo: assets/img/logo.png
+Logo: assets/img/2logo.png
 Tagline: My portfolio.
 Social:
-    - title: Link till sidans github repo.
+    - title: Länk till sidans github
       url: https://github.com/JamesTTTT/portfolio
-      icon: github
+      icon: fab fa-github
+    - title: extra länk
+      url: https://github.com/JamesTTTT?tab=repositories
+      icon: fab fa-github-square
 ---

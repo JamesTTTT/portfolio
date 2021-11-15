@@ -12,6 +12,8 @@ Har varit intresserad i programmering sedan gymnasiet och vill fortsätta utveck
 
 På fritiden gillar jag att läsa och gå på långa promenader
 
-I framtiden hoppas jag att kunna själv jobba inom webbdesign
+I framtiden hoppas jag att kunna själv jobba inom webbdesign.
+
+@icon-info-circle
 
 ![me](%assets_url%/img/me.jpg)

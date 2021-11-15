@@ -19,8 +19,13 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     padding: 0;
 }
 
+ul, a {
+    background-color: $secondary-colour;
+}
+
 ol, ul {
     padding-left: 1.5em;
+    background-color: $secondary-colour;
 }
 
 .hidden {

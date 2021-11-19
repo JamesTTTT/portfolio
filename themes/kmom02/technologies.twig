@@ -3,17 +3,18 @@
 <body>
     {% include 'incl/nav.twig' %}
 
-    <div class="main technology-container" role="main">
+    <div class="technology-container" role="main">
         {{ content }}
 
         {% for page in pages("technology") %}
             <a href="{{ page.url }}">
             <div class="technology">
-                {{ page.title }}'
+                <h3>{{ page.title }}</h3>
+                <p>Text om enskilda webb-technologier</p>
             </div>
             </a>
         {% endfor %}
     </div>
-    
+
         {% include 'incl/footer.twig' %}
 </body>

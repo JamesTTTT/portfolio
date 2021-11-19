@@ -353,7 +353,7 @@ pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #131313;
 }
 
 pre code {
@@ -6494,6 +6494,10 @@ readers do not read off random characters that represent icons */
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 ol, ul {
   padding-left: 1.5em;
 }
@@ -6520,6 +6524,36 @@ body {
 
 .header, .footer {
   flex: 0 0 auto;
+}
+
+.technology-container {
+  display: grid;
+  padding: 1em 2em;
+  gap: 3em;
+}
+
+.technology {
+  text-decoration: none;
+  color: White;
+  background-color: #515158;
+  /*margin: 12%;*/
+  text-align: center;
+  height: 200px;
+  border: 2px solid darkgrey;
+}
+
+.technology:hover {
+  background-color: #36363a;
+}
+
+.technology p {
+  padding: 10px 1em;
+}
+
+.technology-container h1 {
+  padding-top: 30px;
+  grid-column: span 3;
+  justify-self: center;
 }
 
 /* Header */

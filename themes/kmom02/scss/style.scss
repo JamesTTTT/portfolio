@@ -19,13 +19,12 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     padding: 0;
 }
 
-ul, a {
-    background-color: $secondary-colour;
+a {
+    text-decoration: none;
 }
 
 ol, ul {
     padding-left: 1.5em;
-    background-color: $secondary-colour;
 }
 
 .hidden {
@@ -51,6 +50,36 @@ body {
 
 .header, .footer {
     flex: 0 0 auto;
+}
+
+.technology-container {
+    display: grid;
+    padding: 1em 2em;
+    gap: 3em;
+}
+
+.technology {
+    text-decoration: none;
+    color: $text-colour;
+    background-color: rgb(81, 81, 88);
+    /*margin: 12%;*/
+    text-align: center;
+    height: 200px;
+    border: 2px solid darkgrey;
+}
+
+.technology:hover {
+    background-color: rgb(54, 54, 58);
+}
+
+.technology p {
+    padding: 10px 1em;
+}
+
+.technology-container h1 {
+    padding-top: 30px;
+    grid-column: span 3;
+    justify-self: center;
 }
 
 /* Header */

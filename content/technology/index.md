@@ -6,4 +6,3 @@ Template: technologies
 
 Technologier
 ==================
-Olika Web-teknologier

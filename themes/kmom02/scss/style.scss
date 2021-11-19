@@ -62,7 +62,6 @@ body {
     text-decoration: none;
     color: $text-colour;
     background-color: rgb(81, 81, 88);
-    /*margin: 12%;*/
     text-align: center;
     height: 200px;
     border: 2px solid darkgrey;
@@ -76,10 +75,45 @@ body {
     padding: 10px 1em;
 }
 
+.technology h3 {
+    width: 100%;
+    background-color: $main-colour;
+    color:$secondary-colour;
+}
+
 .technology-container h1 {
     padding-top: 30px;
     grid-column: span 3;
     justify-self: center;
+}
+
+.technology-article {
+    padding: 100px;
+}
+
+.article {
+    padding-bottom: 400px;
+}
+
+.sidebar {
+    text-decoration: none;
+    color: $text-colour;
+    list-style: none;
+}
+
+@media (min-width: 767px){
+    .technology-article {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sidebar {
+        width: 23%;
+    }
+
+    .article {
+        width: 70%;
+    }
 }
 
 /* Header */

@@ -56,6 +56,17 @@ body {
     display: grid;
     padding: 1em 2em;
     gap: 3em;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 2.5rem;
+}
+
+.footer {
+    position: absolute;
+}
+
+.footer2 {
+    position: relative;
 }
 
 .technology {
@@ -87,24 +98,18 @@ body {
     justify-self: center;
 }
 
-.technology-article {
-    padding: 100px;
-}
-
-.article {
-    padding-bottom: 400px;
-}
-
-.sidebar {
+.sidebar li, a {
     text-decoration: none;
     color: $text-colour;
     list-style: none;
 }
 
-@media (min-width: 767px){
+@media (min-width: 767px) {
+
     .technology-article {
         display: flex;
         flex-direction: row;
+        padding: 100px;
     }
 
     .sidebar {
@@ -113,6 +118,23 @@ body {
 
     .article {
         width: 70%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .technology-container h1 {
+        padding-top: 10px;
+        grid-column: span 1;
+        justify-self: center;
+    }
+
+    .sidebar{
+        display: none;
+    }
+
+    .article {
+        padding: 10px 30px;
     }
 }
 
@@ -159,6 +181,8 @@ body {
     border-top: 1px solid #222;
     background-color: $main-colour;
     color: #222;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer a {

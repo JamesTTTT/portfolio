@@ -1,6 +1,5 @@
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables.scss';
-
 @import 'blockquotes';
 @import 'code';
 
@@ -216,4 +215,5 @@ img {
     max-width: 100%;
     max-height: 300px;
     border-radius: 10px;
+    //border: 1px solid black;
 }

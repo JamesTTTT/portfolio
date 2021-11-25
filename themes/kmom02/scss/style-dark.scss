@@ -1,6 +1,224 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables.scss';
+@import 'blockquotes';
+@import 'code';
 
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
 
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $Darksecondary-colour;
+}
 
 .main {
-    background-color: red;
+    flex: 1 0 auto;
+    padding: 1% 5%;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+.technology-container {
+    display: grid;
+    padding: 1em 2em;
+    gap: 3em;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 2.5rem;
+}
+
+.footer {
+    position: absolute;
+}
+
+.footer2 {
+    position: relative;
+}
+
+.technology {
+    text-decoration: none;
+    color: $Darktext-colour;
+    background-color: rgb(81, 81, 88);
+    text-align: center;
+    height: 200px;
+    border: 2px solid darkgrey;
+}
+
+.technology:hover {
+    background-color: rgb(54, 54, 58);
+}
+
+.technology p {
+    padding: 10px 1em;
+}
+
+.technology h3 {
+    width: 100%;
+    background-color: $Darkmain-colour;
+    color:$Darksecondary-colour;
+}
+
+.technology-container h1 {
+    padding-top: 30px;
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.sidebar li, a {
+    text-decoration: none;
+    color: $Darktext-colour;
+    list-style: none;
+}
+
+@media (min-width: 767px) {
+
+    .technology-article {
+        display: flex;
+        flex-direction: row;
+        padding: 100px;
+    }
+
+    .sidebar {
+        width: 23%;
+    }
+
+    .article {
+        width: 70%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .technology-container h1 {
+        padding-top: 10px;
+        grid-column: span 1;
+        justify-self: center;
+    }
+
+    .sidebar{
+        display: none;
+    }
+
+    .article {
+        padding: 10px 30px;
+    }
+}
+
+/* Header */
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $Darkmain-colour;
+}
+
+/* Title */
+
+.title, .logo {
+    padding: 3em 3em 3em 0;
+}
+
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    .title {
+        min-width: 50%;
+    }
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.title * {
+    color: $Darktext-colour;
+}
+
+.nav a,
+.nav-toggle {
+     color: $Darktext-colour;
+ }
+
+.title p {
+    font-style: none;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #222;
+    background-color: $Darkmain-colour;
+    color: #222;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: #222;
+}
+
+.footer .social {
+    font-size: $font-size;
+}
+
+/* Typografy */
+
+body {
+    line-height: 1.5rem;
+    color: $Darktext-colour;
+    font-family: 'Oxygen', sans-serif;
+}
+
+p, td, th, li, dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 10px;
+    //border: 1px solid black;
 }

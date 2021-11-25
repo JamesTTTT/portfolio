@@ -6514,7 +6514,15 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #F6F9A8;
+  background-color: #050047;
+}
+
+.fab {
+  color: white;
+}
+
+.fas {
+  color: white;
 }
 
 .main {
@@ -6545,15 +6553,15 @@ body {
 
 .technology {
   text-decoration: none;
-  color: #313131;
-  background-color: #ececec;
+  color: white;
+  background-color: #515158;
   text-align: center;
   height: 200px;
-  border: 2px solid #888888;
+  border: 2px solid darkgrey;
 }
 
 .technology:hover {
-  background-color: #d1d1d1;
+  background-color: #36363a;
 }
 
 .technology p {
@@ -6562,8 +6570,8 @@ body {
 
 .technology h3 {
   width: 100%;
-  background-color: #F2F678;
-  color: #313131;
+  background-color: #06005f;
+  color: white;
 }
 
 .technology-container h1 {
@@ -6574,7 +6582,7 @@ body {
 
 .sidebar li, a {
   text-decoration: none;
-  color: #313131;
+  color: white;
   list-style: none;
 }
 
@@ -6612,7 +6620,7 @@ body {
 .header, .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: #F2F678;
+  background-color: #06005f;
 }
 
 /* Title */
@@ -6634,7 +6642,12 @@ body {
   }
 }
 .title * {
-  color: #111;
+  color: white;
+}
+
+.nav a,
+.nav-toggle {
+  color: white;
 }
 
 .title p {
@@ -6646,7 +6659,7 @@ body {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #222;
-  background-color: #F2F678;
+  background-color: #06005f;
   color: #222;
   bottom: 0;
   width: 100%;
@@ -6663,7 +6676,7 @@ body {
 /* Typografy */
 body {
   line-height: 1.5rem;
-  color: #313131;
+  color: white;
   font-family: "Oxygen", sans-serif;
 }
 

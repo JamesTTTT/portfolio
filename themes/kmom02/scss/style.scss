@@ -71,14 +71,14 @@ body {
 .technology {
     text-decoration: none;
     color: $text-colour;
-    background-color: rgb(81, 81, 88);
+    background-color: $tech;
     text-align: center;
     height: 200px;
-    border: 2px solid darkgrey;
+    border: 2px solid rgb(136, 136, 136);
 }
 
 .technology:hover {
-    background-color: rgb(54, 54, 58);
+    background-color: $Htech;
 }
 
 .technology p {
@@ -88,7 +88,7 @@ body {
 .technology h3 {
     width: 100%;
     background-color: $main-colour;
-    color:$secondary-colour;
+    color:$text-colour;
 }
 
 .technology-container h1 {

@@ -10,7 +10,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
 
 * {
     box-sizing: border-box;
@@ -170,7 +170,7 @@ body {
 }
 
 .title p {
-    font-style: italic;
+    font-style: none;
 }
 
 /* Footer */
@@ -197,8 +197,8 @@ body {
 
 body {
     line-height: 1.5rem;
-    color: rgb(219, 219, 219);
-    font-family: 'Lato', sans-serif;
+    color: $text-colour;
+    font-family: 'Oxygen', sans-serif;
 }
 
 p, td, th, li, dd {

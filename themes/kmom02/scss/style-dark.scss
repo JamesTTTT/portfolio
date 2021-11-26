@@ -1,5 +1,5 @@
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables.scss';
+@import 'variables';
 @import 'blockquotes';
 @import 'code';
 
@@ -22,7 +22,8 @@ a {
     text-decoration: none;
 }
 
-ol, ul {
+ol,
+ul {
     padding-left: 1.5em;
 }
 
@@ -30,7 +31,8 @@ ol, ul {
     display: none !important;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -55,7 +57,8 @@ body {
     padding: 1% 5%;
 }
 
-.header, .footer {
+.header,
+.footer {
     flex: 0 0 auto;
 }
 
@@ -82,7 +85,7 @@ body {
     background-color: rgb(81, 81, 88);
     text-align: center;
     height: 200px;
-    border: 2px solid darkgrey;
+    border: 2px solid rgb(163, 163, 163);
 }
 
 .technology:hover {
@@ -96,7 +99,7 @@ body {
 .technology h3 {
     width: 100%;
     background-color: $Darkmain-colour;
-    color:$Darktext-colour;
+    color: $Darktext-colour;
 }
 
 .technology-container h1 {
@@ -105,14 +108,14 @@ body {
     justify-self: center;
 }
 
-.sidebar li, a {
+.sidebar li,
+a {
     text-decoration: none;
     color: $Darktext-colour;
     list-style: none;
 }
 
 @media (min-width: 767px) {
-
     .technology-article {
         display: flex;
         flex-direction: row;
@@ -129,14 +132,13 @@ body {
 }
 
 @media (max-width: 767px) {
-
     .technology-container h1 {
         padding-top: 10px;
         grid-column: span 1;
         justify-self: center;
     }
 
-    .sidebar{
+    .sidebar {
         display: none;
     }
 
@@ -147,7 +149,8 @@ body {
 
 /* Header */
 
-.header, .site-header {
+.header,
+.site-header {
     display: flex;
     justify-content: space-between;
     background-color: $Darkmain-colour;
@@ -155,18 +158,22 @@ body {
 
 /* Title */
 
-.title, .logo {
+.title,
+.logo {
     padding: 3em 3em 3em 0;
 }
 
 
 @media (max-width: 767px) {
-    .title, .logo {
+    .title,
+    .logo {
         padding: 1em 1em 1em 0;
     }
+
     .title {
         min-width: 50%;
     }
+
     .logo {
         max-width: 30%;
     }
@@ -178,8 +185,8 @@ body {
 
 .nav a,
 .nav-toggle {
-     color: $Darktext-colour;
- }
+    color: $Darktext-colour;
+}
 
 .title p {
     font-style: none;
@@ -192,13 +199,13 @@ body {
     justify-content: space-between;
     border-top: 1px solid #222;
     background-color: $Darkmain-colour;
-    color: #222;
+    color: $Darktext-colour;
     bottom: 0;
     width: 100%;
 }
 
 .footer a {
-    color: #222;
+    color: $Darktext-colour;
 }
 
 .footer .social {
@@ -213,13 +220,22 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
-p, td, th, li, dd {
+p,
+td,
+th,
+li,
+dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
 }

@@ -6546,6 +6546,14 @@ body {
   padding-bottom: 2.5rem;
 }
 
+.analys-container {
+  text-align: center;
+}
+
+.analys-article {
+  padding: 50px;
+}
+
 .footer {
   position: absolute;
 }

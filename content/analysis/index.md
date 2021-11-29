@@ -1,8 +1,8 @@
 ---
-Title: Technology
-Description: This is a page of the technologies I use.
-Template: technologies
+Title: Analys
+Description: analys sida
+Template: analys
 ---
 
-Technologier
+ANALYS
 ==================

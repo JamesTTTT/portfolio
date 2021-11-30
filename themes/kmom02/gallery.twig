@@ -3,19 +3,60 @@
 <body>
     {% include 'incl/nav.twig' %}
 
-    <div class="main" role="main">
+    <div class="gallery">
         {{ content }}
 
-        <div class="gallery-container">
-        {% for image in meta["Images"] %}
-            <a href="{{ base_url }}{{ image.url }}" target="_blank">
-                <img src="{{ base_url }}{{ image.url }}?w=333&h=333&crop-to-fit" alt="{{ image.alt }}">
-            </a>
-        {% endfor %}
-        </div>
+        {# //img1 #}
+        <a href="{{ base_url }}/image/flower.jpg" target="_blank">
+            <picture class = "image">
+                <source media="(min-width: 668px)" srcset="{{ base_url }}/image/flower.jpg">
+                <img src="{{ base_url }}/image/flower.jpg&w=667" alt="A flower">
+            </picture>
+        </a>
+        {# //img2 #}
+        <a href="{{ base_url }}/image/banana.jpeg" target="_blank">
+            <picture class = "image">
+                <source media="(min-width: 668px)" srcset="{{ base_url }}/image/banana.jpeg">
+                <img src="{{ base_url }}/image/banana.jpeg" alt="bananas">
+            </picture>
+        </a>
+        {# //img3 #}
+        <a href="{{ base_url }}/image/hand.jpeg" target="_blank">
+            <picture class = "image">
+                <source media="(min-width: 668px)" srcset="{{ base_url }}/image/hand.jpeg">
+                <img src="{{ base_url }}/image/hand.jpeg" alt="A hand">
+            </picture>
+        </a>
+        {# //img4 #}
+        <a href="{{ base_url }}/image/hand2.jpeg" target="_blank">
+            <picture class = "image">
+                <source media="(min-width: 668px)" srcset="{{ base_url }}/image/hand2.jpeg">
+                <img src="{{ base_url }}/image/hand2.jpeg&w=667" alt="A second hand">
+            </picture>
+        </a>
+        {# //img5 #}
+        <a href="{{ base_url }}/image/lemons.jpeg" target="_blank">
+            <picture class = "image">
+                <source media="(min-width: 668px)" srcset="{{ base_url }}/image/lemons.jpeg">
+                <img src="{{ base_url }}/image/lemons.jpeg&h=250&w=50&crop-to-fit" alt="A flower">
+            </picture>
+        </a>
+        {# //img6 #}
+        <a href="{{ base_url }}/image/statue.jpeg" target="_blank">
+            <picture class = "image">
+                <source media="(min-width: 668px)" srcset="{{ base_url }}/image/statue.jpeg">
+                <img src="{{ base_url }}/image/statue.jpeg&w=667" alt="A statue">
+            </picture>
+        </a>
     </div>
 
+    <div class="embed-container">
+        <iframe src="https://www.youtube.com/embed/sW10W0Wcwpw" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class ="footer2">
     {% include 'incl/footer.twig' %}
+    </div>
 </body>
 
 </html>

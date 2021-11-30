@@ -15,10 +15,8 @@ Social:
       url: ?action=session_destroy
       icon: fas fa-trash-alt
 Images:
-    - url: https://www.pexels.com/photo/yellow-sunflower-2966339/
-      alt: flower
-    - url: /image/cheetah.jpg
-      alt: Gepard
+    - url: /image/flower.jpg
+      alt: Flower
     - url: /image/elephant.jpg
       alt: Elefant
     - url: /image/giraffes.jpg

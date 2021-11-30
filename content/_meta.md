@@ -14,4 +14,23 @@ Social:
     - title: Destroy Session
       url: ?action=session_destroy
       icon: fas fa-trash-alt
+Images:
+    - url: https://www.pexels.com/photo/yellow-sunflower-2966339/
+      alt: flower
+    - url: /image/cheetah.jpg
+      alt: Gepard
+    - url: /image/elephant.jpg
+      alt: Elefant
+    - url: /image/giraffes.jpg
+      alt: Giraffer
+    - url: /image/hippo.jpg
+      alt: Flodhäst
+    - url: /image/leopard.jpg
+      alt: Leopard
+    - url: /image/lion.jpg
+      alt: Lejon
+    - url: /image/penguin.jpg
+      alt: Pingvin
+    - url: /image/rhino.jpg
+      alt: Noshörning
 ---

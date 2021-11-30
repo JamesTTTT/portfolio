@@ -4,5 +4,5 @@ Description: gallery page.
 Template: gallery
 ---
 
-Technologier
+Galleri
 ==================

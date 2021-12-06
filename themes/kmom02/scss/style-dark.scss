@@ -88,9 +88,11 @@ body {
     margin-bottom: 20px;
     position: relative;
     padding-bottom: 2.5rem;
+    justify-content: center;
 }
 
 .gallery h1 {
+    gap: 1em;
     padding-top: 30px;
     grid-column: span 3;
     justify-self: center;
@@ -186,6 +188,10 @@ a {
 
     .article {
         padding: 10px 30px;
+    }
+
+    .gallery h1 {
+        grid-column: span 1;
     }
 }
 

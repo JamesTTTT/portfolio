@@ -6545,6 +6545,7 @@ body {
   margin-bottom: 20px;
   position: relative;
   padding-bottom: 2.5rem;
+  justify-content: center;
 }
 
 .gallery h1 {

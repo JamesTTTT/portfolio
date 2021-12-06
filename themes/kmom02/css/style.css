@@ -6653,6 +6653,10 @@ a {
   .article {
     padding: 10px 30px;
   }
+
+  .gallery h1 {
+    grid-column: span 1;
+  }
 }
 /* Header */
 .header,

@@ -1,0 +1,46 @@
+@import 'variables';
+
+.abtme {
+    box-shadow: 10px 10px 5px black;
+    padding: 10px;
+    width: 50%;
+    background-color: $main-colour;
+    flex: 1;
+}
+
+.h2{
+    box-shadow: 10px 10px 5px black;
+    width: 30%;
+    background-color: $main-colour;
+    text-align: center;
+    padding: 10px;
+    flex:1;
+    max-height: 50px;
+
+}
+
+.firstpage {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+}
+
+.meimage img{
+    margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+    .abtme {
+        width: 100%;
+    }
+    
+    .h2{
+        width: 100%;
+    
+    }
+
+    .firstpage {
+        display: flex;
+        flex-direction: column;
+    }
+}

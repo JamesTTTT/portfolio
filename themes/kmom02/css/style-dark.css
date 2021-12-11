@@ -373,6 +373,73 @@ blockquote {
   border-left: 0.5em solid #f5f5f5;
 }
 
+.abtme {
+  box-shadow: 10px 10px 5px black;
+  padding: 10px;
+  width: 50%;
+  background-color: #f2f678;
+  flex: 1;
+}
+
+.h2 {
+  box-shadow: 10px 10px 5px black;
+  width: 30%;
+  background-color: #f2f678;
+  text-align: center;
+  padding: 10px;
+  flex: 1;
+  max-height: 50px;
+}
+
+.firstpage {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+}
+
+.meimage img {
+  margin-top: 20px;
+  color: black;
+  border: 10px solid black;
+  border-image: repeating-linear-gradient(45deg, #fbe200, black 1%, #e2fb00 1%, #ffee00 8%) 10;
+}
+
+.meimage img:hover {
+  filter: blur(4px);
+}
+
+.gallery img {
+  box-shadow: 10px 10px 5px black;
+}
+
+.gallery img:hover {
+  filter: blur(4px);
+}
+
+.header,
+.site-header {
+  background: #020024;
+  background: linear-gradient(127deg, #020024 0%, #fff800 0%, #e4f41b 4%, rgba(161, 235, 94, 0) 100%, rgba(0, 212, 255, 0) 100%);
+}
+
+.technology {
+  box-shadow: 10px 10px 5px black;
+}
+
+@media (max-width: 767px) {
+  .abtme {
+    width: 100%;
+  }
+
+  .h2 {
+    width: 100%;
+  }
+
+  .firstpage {
+    display: flex;
+    flex-direction: column;
+  }
+}
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)

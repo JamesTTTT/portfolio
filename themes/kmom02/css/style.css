@@ -408,6 +408,9 @@ blockquote {
 
 .meimage img {
   margin-top: 20px;
+  color: black;
+  border: 10px solid black;
+  border-image: repeating-linear-gradient(45deg, #fbe200, black 1%, #e2fb00 1%, #ffee00 8%) 10;
 }
 
 .meimage img:hover {

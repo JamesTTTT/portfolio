@@ -29,6 +29,29 @@
     margin-top: 20px;
 }
 
+.meimage img:hover{
+    filter: blur(4px);
+}
+
+.gallery img {
+    box-shadow: 10px 10px 5px black;
+}
+
+.gallery img:hover {
+    filter: blur(4px);
+}
+
+.header,
+.site-header {
+
+    background: rgb(2,0,36);
+    background: linear-gradient(127deg, rgba(2,0,36,1) 0%, rgba(255,248,0,1) 0%, rgba(228,244,27,1) 4%, rgba(161,235,94,0) 100%, rgba(0,212,255,0) 100%);
+}
+
+.technology {
+    box-shadow: 10px 10px 5px black;
+}
+
 @media (max-width: 767px) {
     .abtme {
         width: 100%;

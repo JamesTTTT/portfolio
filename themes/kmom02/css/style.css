@@ -410,6 +410,28 @@ blockquote {
   margin-top: 20px;
 }
 
+.meimage img:hover {
+  filter: blur(4px);
+}
+
+.gallery img {
+  box-shadow: 10px 10px 5px black;
+}
+
+.gallery img:hover {
+  filter: blur(4px);
+}
+
+.header,
+.site-header {
+  background: #020024;
+  background: linear-gradient(127deg, #020024 0%, #fff800 0%, #e4f41b 4%, rgba(161, 235, 94, 0) 100%, rgba(0, 212, 255, 0) 100%);
+}
+
+.technology {
+  box-shadow: 10px 10px 5px black;
+}
+
 @media (max-width: 767px) {
   .abtme {
     width: 100%;
@@ -6715,7 +6737,6 @@ a {
 .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: #f2f678;
 }
 
 /* Title */

@@ -377,14 +377,14 @@ blockquote {
   box-shadow: 10px 10px 5px black;
   padding: 10px;
   width: 50%;
-  background-color: #f2f678;
+  background-color: #282c36;
   flex: 1;
 }
 
 .h2 {
   box-shadow: 10px 10px 5px black;
   width: 30%;
-  background-color: #f2f678;
+  background-color: #282c36;
   text-align: center;
   padding: 10px;
   flex: 1;
@@ -419,7 +419,7 @@ blockquote {
 .header,
 .site-header {
   background: #020024;
-  background: linear-gradient(127deg, #020024 0%, #fff800 0%, #e4f41b 4%, rgba(161, 235, 94, 0) 100%, rgba(0, 212, 255, 0) 100%);
+  background: linear-gradient(127deg, #020024 0%, #282c36 0%, #282c36 11%, rgba(161, 235, 94, 0) 100%, rgba(0, 212, 255, 0) 100%);
 }
 
 .technology {
@@ -6740,7 +6740,6 @@ a {
 .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: #282c36;
 }
 
 /* Title */

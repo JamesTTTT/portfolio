@@ -6826,3 +6826,7 @@ img {
   max-height: 300px;
   border-radius: 10px;
 }
+
+code {
+  color: black;
+}
